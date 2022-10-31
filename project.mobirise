@@ -36,7 +36,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "Site-08-23_2332",
+    "name": "Капитошка 1+",
     "versionFirst": "5.6.11",
     "siteFonts": [
       {
@@ -57,13 +57,13 @@
     ],
     "imageResize": true,
     "favicon": false,
-    "mbrsiteDomain": "fxl4jnjhgp",
+    "mbrsiteDomain": "yjrxji382d",
     "cssOptimize": false,
     "lazyLoad": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://kap1.ru",
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
@@ -85,13 +85,14 @@
       "placeholder": "Введите текст",
       "zIndex": 10,
       "enabled": true
-    }
+    },
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Детский сад Капитошка 1+",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
