@@ -1221,7 +1221,7 @@ a {
 }
 .cid-tlym49Xv9l {
   padding-top: 0rem;
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-tlym49Xv9l .card-1 {
@@ -1303,6 +1303,85 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+}
+.cid-tm1AXQ6jLx {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-tm1AXQ6jLx .wrapper {
+  background: #ffffff;
+}
+.cid-tm1AXQ6jLx .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tm1AXQ6jLx .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tm1AXQ6jLx .mbr-section-title {
+  text-align: center;
+}
+.cid-tm1Ay0gLX9 {
+  padding-top: 0rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-tm1Ay0gLX9 .title-section {
+  padding: 0px;
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .cid-tm1Ay0gLX9 .title-section {
+    padding: 0 90px;
+    margin-bottom: 40px;
+  }
+}
+.cid-tm1Ay0gLX9 .btn {
+  display: flex;
+}
+.cid-tm1Ay0gLX9 .card {
+  background-color: transparent;
+  box-shadow: 0px 10px 20px 0px rgba(29, 29, 27, 0.2);
+}
+.cid-tm1Ay0gLX9 .card-body {
+  padding: 40px 55px 30px 55px;
+}
+.cid-tm1Ay0gLX9 .col-img {
+  width: 35px;
+  height: 35px;
+  flex: 0 0 35px;
+  margin-right: 22px;
+}
+.cid-tm1Ay0gLX9 .card-title {
+  flex: 1 1 auto;
+  width: auto;
+}
+.cid-tm1Ay0gLX9 .price {
+  text-align: left;
+}
+.cid-tm1Ay0gLX9 .title-section .mbr-section-subtitle {
+  text-align: center;
+}
+.cid-tm1Ay0gLX9 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tm1Ay0gLX9 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tm1Ay0gLX9 .title-section .mbr-section-title {
+  text-align: left;
 }
 .cid-tlPUg3LcGs {
   padding-top: 5rem;
@@ -1404,7 +1483,7 @@ a {
   text-align: center;
 }
 .cid-tm1iaLZXZq {
-  padding-top: 6rem;
+  padding-top: 5rem;
   padding-bottom: 6rem;
   overflow: hidden;
   background-color: #ffffff;
