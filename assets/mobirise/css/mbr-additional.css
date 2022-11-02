@@ -1469,6 +1469,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 .cid-tm1iaLZXZq .embla__button:disabled {
   cursor: default;
