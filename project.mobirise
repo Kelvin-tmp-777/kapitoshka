@@ -94,7 +94,9 @@
       "icon": "@PROJECT_PATH@/assets/images/logo-kap1-512x512.png",
       "themeColor": "#1976d3"
     },
-    "cookiesAlert": false
+    "cookiesAlert": false,
+    "global_header_custom": "<meta name=\"yandex-verification\" content=\"df93bda9de765620\" />",
+    "global_before_html": ""
   },
   "pages": {
     "index.html": {
