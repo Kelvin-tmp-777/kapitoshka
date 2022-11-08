@@ -87,7 +87,7 @@
       "zIndex": 10,
       "enabled": true
     },
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "PWA": {
       "enabled": true,
       "name": "Капитошка 1+",
@@ -95,7 +95,7 @@
       "themeColor": "#1976d3"
     },
     "cookiesAlert": false,
-    "global_header_custom": "<meta name=\"yandex-verification\" content=\"df93bda9de765620\" />",
+    "global_header_custom": "<meta name=\"yandex-verification\" content=\"df93bda9de765620\" />\n<meta name=\"keywords\" content=\"частный детский сад в адлере, капитошка, полдня, короткий день, частные садики в адлере, полный день, прибывание от 1 часа, подготовка к школе\" />",
     "global_before_html": ""
   },
   "pages": {
