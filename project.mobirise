@@ -95,7 +95,7 @@
       "themeColor": "#1976d3"
     },
     "cookiesAlert": false,
-    "global_header_custom": "  <meta name=\"description\" content=\"Детский развивающий центр в Адлере с изучением английского языка. Развитие детей от 2х лет, по индивидуальным программам. Разные варианты посещений.\">\n  <meta name=\"keywords\" content=\"частный детский сад в адлере, капитошка, полдня, короткий день, частные садики в адлере, полный день, прибывание от 1 часа, подготовка к школе\" />\n  <meta name=\"yandex-verification\" content=\"df93bda9de765620\" />  \n<!-- Yandex.Metrika counter -->\n<script type=\"text/javascript\" >\n   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};\n   m[i].l=1*new Date();\n   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}\n   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})\n   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");\n\n   ym(91101830, \"init\", {\n        clickmap:true,\n        trackLinks:true,\n        accurateTrackBounce:true,\n        webvisor:true\n   });\n</script>\n<noscript><div><img src=\"https://mc.yandex.ru/watch/91101830\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div></noscript>\n<!-- /Yandex.Metrika counter -->",
+    "global_header_custom": "<meta name=\"yandex-verification\" content=\"df93bda9de765620\" />  \n\n<!-- Yandex.Metrika counter -->\n<script type=\"text/javascript\" >\n   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};\n   m[i].l=1*new Date();\n   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}\n   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})\n   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");\n\n   ym(91101830, \"init\", {\n        clickmap:true,\n        trackLinks:true,\n        accurateTrackBounce:true,\n        webvisor:true\n   });\n</script>\n<noscript><div><img src=\"https://mc.yandex.ru/watch/91101830\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div></noscript>\n<!-- /Yandex.Metrika counter -->",
     "global_before_html": ""
   },
   "pages": {
@@ -103,10 +103,12 @@
       "settings": {
         "main": true,
         "title": "Детский сад Капитошка 1+",
-        "meta_descr": "",
-        "header_custom": "",
+        "meta_descr": "Детский развивающий центр в Адлере с изучением английского языка. Развитие детей от 2х лет, по индивидуальным программам. Разные варианты посещений.",
+        "header_custom": "<meta name=\"keywords\" content=\"частный детский сад в адлере, капитошка, полдня, короткий день, частные садики в адлере, полный день, прибывание от 1 часа, подготовка к школе\" />",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "socialSharingUrl": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-kap1-98x91.png"
       },
       "components": [
         {
