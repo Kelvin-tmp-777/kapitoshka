@@ -1075,6 +1075,7 @@ a {
 }
 .cid-sRQby9NjFs .mbr-section-title {
   color: #2957bd;
+  text-align: left;
 }
 .cid-sRQby9NjFs .mbr-section-subtitle {
   color: #ad39e7;
@@ -1894,8 +1895,8 @@ a {
   object-fit: cover;
 }
 .cid-tm1Hcg7JQg {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #ffffff;
 }
 .cid-tm1Hcg7JQg .google-map {
