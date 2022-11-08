@@ -1936,6 +1936,121 @@ a {
   position: absolute;
   top: 0;
 }
+.cid-tmz1F8D9Lq {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fbfbfb;
+}
+.cid-tmz1F8D9Lq .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tmz1F8D9Lq .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tmz1F8D9Lq .logo-container {
+  max-width: 33.33333333%;
+  padding-right: 1rem;
+  margin-right: auto;
+}
+@media (max-width: 767px) {
+  .cid-tmz1F8D9Lq .logo-container {
+    width: 100%;
+    padding-right: 0;
+    max-width: 100%;
+    order: 3;
+    justify-content: center !important;
+  }
+}
+.cid-tmz1F8D9Lq .navbar-brand {
+  display: flex;
+  flex-basis: auto;
+  word-break: break-word;
+  flex-shrink: 0;
+  align-items: center;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+  transition: all 0.3s;
+  z-index: 1;
+  white-space: normal;
+}
+.cid-tmz1F8D9Lq .navbar-brand .navbar-logo {
+  margin-right: 0.5rem;
+}
+.cid-tmz1F8D9Lq .navbar-brand .navbar-logo img {
+  width: auto;
+}
+.cid-tmz1F8D9Lq .navbar-brand .navbar-caption {
+  line-height: inherit !important;
+  font-weight: 500;
+}
+.cid-tmz1F8D9Lq .navbar-brand .navbar-logo a {
+  outline: none;
+}
+@media (max-width: 767px) {
+  .cid-tmz1F8D9Lq .navbar-brand {
+    justify-content: center !important;
+  }
+}
+.cid-tmz1F8D9Lq .social-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  padding-left: 1rem;
+  margin-left: auto;
+  max-width: 33.33333333%;
+}
+@media (max-width: 768px) {
+  .cid-tmz1F8D9Lq .social-row {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    justify-content: center;
+    order: 1;
+    margin-left: -0.75rem;
+  }
+}
+.cid-tmz1F8D9Lq .soc-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.75rem;
+}
+.cid-tmz1F8D9Lq .mbr-iconfont {
+  color: #000000;
+  font-size: 18px;
+}
+.cid-tmz1F8D9Lq .copyright-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .cid-tmz1F8D9Lq .copyright-col {
+    flex-direction: column;
+  }
+}
+.cid-tmz1F8D9Lq .copyright {
+  color: #000000;
+  flex-grow: 1;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-tmz1F8D9Lq .copyright {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem !important;
+    order: 2;
+    text-align: center;
+  }
+}
 .cid-tlPyIIx5y0.popup-builder {
   background-color: #ffffff;
 }

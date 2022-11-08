@@ -68,7 +68,7 @@
     "siteUrl": "https://kap1.ru",
     "gdpr": false,
     "pwa-switcher": true,
-    "uniqCompNum": 15,
+    "uniqCompNum": 16,
     "versionPublish": "5.6.13",
     "screenshot": "screenshot.png",
     "chatbutton": {
@@ -1690,6 +1690,130 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "afooter1",
+          "_sourceTheme": "systemm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"socialColor\" value=\"#000000\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/systemm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#fbfbfb\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/systemm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fbfbfb\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 copyright-col\">\n                <div class=\"logo-container\">\n                    <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n                    <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                        <a href=\"https://mobiri.se\">\n                            <img src=\"@PROJECT_PATH@/assets/images/logo-kap1-98x91.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                        </a>\n                    </span>\n                        <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">SystemM5</a>\n                </span>\n                    </div>\n\n                </div>\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-right copyright\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2022 kap1.ru - Все права защищены.</p>\n                <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"index.html#contact01-e\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"index.html#footer01-5\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://wa.me/79884008883\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-paper-plane mobi-mbri\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".logo-container": {
+              "max-width": "(100% / 3)",
+              "padding-right": "1rem",
+              "margin-right": "auto",
+              "@media (max-width: 767px)": {
+                "width": "100%",
+                "padding-right": "0",
+                "max-width": "100%",
+                "order": "3",
+                "justify-content": "center !important"
+              }
+            },
+            ".navbar-brand": {
+              "display": "flex",
+              "flex-basis": "auto",
+              "word-break": "break-word",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "margin-bottom": "0",
+              "padding": "0",
+              "transition": "all 0.3s",
+              "z-index": "1",
+              "white-space": "normal",
+              ".navbar-logo": {
+                "margin-right": "0.5rem",
+                "img": {
+                  "width": "auto"
+                }
+              },
+              ".navbar-caption": {
+                "line-height": "inherit !important",
+                "font-weight": "500"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              },
+              "@media (max-width: 767px)": {
+                "justify-content": "center !important"
+              }
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "margin-top": "0",
+              "padding-left": "1rem",
+              "margin-left": "auto",
+              "max-width": "(100% / 3)",
+              "@media (max-width: 768px)": {
+                "width": "100%",
+                "max-width": "100%",
+                "margin-bottom": "1rem",
+                "padding-left": "0",
+                "justify-content": "center",
+                "order": "1",
+                "margin-left": "-0.75rem"
+              }
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin-left": "0.75rem"
+            },
+            ".mbr-iconfont": {
+              "color": "@socialColor",
+              "font-size": "18px"
+            },
+            ".copyright-col": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "@media (max-width: 768px)": {
+                "flex-direction": "column"
+              }
+            },
+            ".copyright": {
+              "color": "#000000",
+              "flex-grow": "1",
+              "text-align": "center",
+              "@media (max-width: 768px)": {
+                "width": "100%",
+                "max-width": "100%",
+                "margin-bottom": "1rem !important",
+                "order": "2",
+                "text-align": "center"
+              }
+            }
+          },
+          "_cid": "tmz1F8D9Lq",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "afooter1-f"
         },
         {
           "alias": "popup-builder",
