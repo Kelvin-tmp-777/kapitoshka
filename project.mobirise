@@ -1437,12 +1437,12 @@
           "_styles": {},
           "_name": "eb-youtube-feed",
           "_sourceTheme": "preschoolm5",
-          "_customHTML": "<section class=\"eb-youtube-feed\" group=\"Widget\"><script src=\"https://s.electricblaze.com/widget.js\" defer=\"\"></script>\n<div class=\"electricblaze-id-2Uhx9FP\"></div></section>",
+          "_customHTML": "<section class=\"eb-youtube-feed\" group=\"Widget\"><script src=\"https://s.electricblaze.com/widget.js\" defer=\"\"></script>\n<div class=\"electricblaze-id-2Uhx9G3\"></div></section>",
           "_cid": "tGpBd2xz80",
           "_anchor": "eb-youtube-feed-k",
           "safe": {
-            "id": 14711,
-            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2Uhx9FP\"></div>"
+            "id": 14751,
+            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2Uhx9G3\"></div>"
           },
           "_protectedParams": [],
           "_global": false,
